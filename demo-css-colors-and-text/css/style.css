@@ -1,0 +1,39 @@
+#first-paragraph {
+    color: rgb(117, 150, 117);
+    background-color: #ffbecf;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: #8f8fbc;
+    background-color:#acfbf3;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color:#f2d1ff;
+}
+
+#span1 {
+    color: #6363f5;
+    text-align: right;
+}
+
+#span2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fc7ca2;
+}
+
+#span3 {
+    text-decoration: line-through;
+    color: #19ae7d;
+}
+
+#span4 {
+    background-color: #d9fcd4;
+    font-style: italic;
+}
