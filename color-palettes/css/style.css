@@ -1,6 +1,7 @@
 #palette1 {
     font-family: monospace;
     text-align: center;
+    font-size: 25px;
 }
 
 #palette1-color1 {
@@ -9,6 +10,7 @@
     font-family: monospace;
     text-align: center;
     padding: 24px;
+    font-size: 15px;
 }
 
 #palette1-color2 {
@@ -16,7 +18,8 @@
     color: white;
     font-family: monospace;
     text-align: center;
-    padding: 24px
+    padding: 24px;
+    font-size: 15px;
 }
 
 #palette1-color3 {
@@ -25,6 +28,7 @@
     font-family: monospace;
     text-align: center;
     padding: 24px;
+    font-size: 15px;
 }
 
 #palette2 {
@@ -42,7 +46,7 @@
 
 #palette2-color2 {
     background-color: #E9724C;
-    color: black;
+    color: white;
     font-family: sans-serif;
     text-align: center;
     padding: 24px;
