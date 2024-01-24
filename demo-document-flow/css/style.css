@@ -1,0 +1,5 @@
+.narrow {
+    width: 200px;
+    background-color: rgb(175, 223, 178);
+    display: inline-block;
+}
