@@ -1,0 +1,16 @@
+div {
+    border: 8px outset #fc9bff;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: #cbd4ff;
+}
+p {
+    margin: 50px 100px;
+    padding: 100px;
+    background-color: #a9ecd5;
+    border-radius: 50%;
+    border: 5px dotted pink;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
