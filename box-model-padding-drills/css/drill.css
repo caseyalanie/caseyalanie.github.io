@@ -1,0 +1,35 @@
+/* Drill 1 - Write your code solution below */
+#d1-container-1 {
+    padding: 36px;
+}
+
+/* Drill 2 - Write your code solution below */
+.d2-div {
+    padding: 48px 24px;
+}
+
+/* Drill 3 - Write your code solution below */
+#d3-div-2 {
+    padding: 12px 48px;
+}
+.d3-div {
+    padding: 12px;
+}
+
+/* Drill 4 - Write your code solution below */
+#d4-div-1 {
+    padding: 24px;
+}
+#d4-div-2 {
+    padding: 0px 24px 24px;
+}
+
+/* Drill 5 - Write your code solution below */
+.d5-s {
+    display: inline-block;
+    text-align: center;
+    padding: 24px;
+}
+#d5-s-1 {
+    padding-left: 150px;
+}
