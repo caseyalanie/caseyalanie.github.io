@@ -15,30 +15,31 @@ body {
     width: 950px;
 }
 #brown-container {
-    background-color: black;
+    background-color: #120a0a;
     padding: 48px 0px;
 }
 #hershey-logo {
     width: 200px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 h1 {
-    color: white;
+    color: wheat;
     font-size: 50px;
     padding-bottom: 0px;
 }
 p {
-    color: white;
+    color: wheat;
     margin: 35px;
+    font-size: 20px;
 }
-#button1 {
-    color: #291717;
+#button {
+    color: #120a0a;
     margin: 0px 375px;
-    background-color: white;
-    padding: 10px;
+    background-color: wheat;
+    padding: 20px;
     border-radius: 50px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 #gold-container {
     background-color: #a37621;
@@ -62,5 +63,8 @@ p {
 #creme-kisses {
     margin-top: 0px;
     padding-top: 0px;
+}
+.creme-text {
+    color: #291717; 
 }
 
