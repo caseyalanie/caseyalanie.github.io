@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#silver-kisses {
+    width: 950px;
+}
+#brown-container {
+    background-color: black;
+    padding: 48px 0px;
+}
+#hershey-logo {
+    width: 200px;
+    margin-top: 50px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+p {
+    color: white;
+    margin: 35px;
+}
+#button1 {
+    color: #291717;
+    margin: 0px 375px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#gold-container {
+    background-color: #a37621;
+    padding: 48px 0px;
+}
+#creme-container {
+    background-color: wheat;
+    padding: 48px 0px;
+}
+#black-container {
+    background-color: #291717;
+    padding: 48px 0px;
+}
+#purple-kisses {
+    width: 300px;
+    margin-top: 35px;
+}
+#gold-kisses {
+    margin-top: 0px;
+}
+#creme-kisses {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
