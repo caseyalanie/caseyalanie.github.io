@@ -5,3 +5,54 @@ body {
     margin: 0px;
     font-family: sans-serif; 
 }
+#two-columns {
+    display: flex;
+}
+#sidebar-content {
+    width: 250px;
+    padding: 24px;
+    font-size: 18px;
+}
+#main-content {
+    flex: 1;
+    padding: 48px;
+}
+#sidebar-content h2 {
+    border-bottom: 1px solid #111111;
+    padding-bottom: 8px;
+}
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#sidebar-content ul a {
+    text-decoration: none;
+    color: #72c4e0;
+}
+#sidebar-content ul a:hover {
+    text-decoration: underline;
+}
+#sidebar-content ul li {
+    padding: 4px 0px;
+}
+#sidebar-content .indented {
+    padding-left: 10px;
+}
+#main-content h2 {
+    border-bottom: 1px solid #111111;
+    padding-bottom: 2px;
+    font-weight: 300;
+    font-family: serif;
+    font-size: 30px;
+}
+#main-content h1 {
+    font-family: serif;
+    font-size: 50px;
+}
+#main-content p {
+    font-size: 18px;
+}
+#main-content h4 {
+    font-size: 18px;
+    margin: 2px 0px;
+}
