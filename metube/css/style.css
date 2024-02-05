@@ -61,7 +61,6 @@ body {
     margin-bottom: 24px;
 }
 .metube-item .thumbnail-placeholder {
-    background: radial-gradient(at top left,crimson, orange);
     aspect-ratio: 16 / 9;
     border-radius: 8px;
     border: 1px solid white;
