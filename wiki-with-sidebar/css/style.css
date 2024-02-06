@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
+    margin: 0px 100px;
     font-family: sans-serif; 
 }
 #two-columns {
