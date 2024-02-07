@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif; 
+    font-family: sans-serif;
 }
 #grid-layout {
     display: grid;
@@ -11,7 +11,7 @@ body {
     grid-template-areas: 
         "header header"
         "sidebar main";
-    background-color: #ffb2b2;
+    background: linear-gradient(#ffb2b2,white);
 }
 #header {
     grid-area: header;
@@ -56,17 +56,19 @@ body {
     color: white;
 }
 .metube-item {
-    flex: 250px;
-    margin-right: 12px;
+    flex: 500px;
+    margin-right: 50px;
     margin-bottom: 24px;
 }
-.metube-item .thumbnail-placeholder {
+.metube-item .thumbnail-placeholder img {
     aspect-ratio: 16 / 9;
     border-radius: 8px;
-    border: 1px solid white;
+    border: 3px solid #df4646;
+    width: 100%;
 }
 .metube-item h4 {
     margin: 8px;
+    font-size: 20px;
 }
 .metube-item h4 a {
     text-decoration: none;
