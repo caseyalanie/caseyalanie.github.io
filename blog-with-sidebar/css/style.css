@@ -58,12 +58,11 @@ body {
     color: white;
 }
 #sidebar-content li {
-    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 8px 12px;
 }
 #sidebar-content li:hover {
-    background-color: #ffffff;
-    color: #05265c;
+    background-color: #05265c;
 }
 #sidebar-content li:last-child {
     border-bottom: 0px;
