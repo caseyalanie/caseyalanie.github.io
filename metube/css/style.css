@@ -86,3 +86,14 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
+.metube-pfp {
+    display: flex;
+}
+.metube-pfp img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border: 1px solid white;
+}
