@@ -1,0 +1,40 @@
+.card-style-2 {
+    width: 350px;
+    background-color: white;
+    border-radius: 35px;
+    margin: 18px;
+    padding: 3px;
+}
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.profile-pic-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.brand-name {
+    font-size: 28px;
+}
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+.card-style-2 h2 {
+    text-align: center;
+}
+.card-style-2 p {
+    text-align: center;
+    padding: 0px 55px;
+    padding-bottom: 40px;
+}
+.animagram-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
