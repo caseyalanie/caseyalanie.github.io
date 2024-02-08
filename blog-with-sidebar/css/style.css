@@ -1,14 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;;
     background: linear-gradient(black, #1b51a7); 
 }
-#main-content #firstpic,
-#main-content #secondpic,
-#main-content #thirdpic {
+#main-content .pics {
     width: 100%;
 }
 #grid-layout {
@@ -56,13 +55,20 @@ body {
 #sidebar-content a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 12px;
+    transition: 
+        background-color .5s,
+        color .5s;
 }
 #sidebar-content li {
     border-bottom: 1px solid white;
-    padding: 8px 12px;
+    /* padding: 8px 12px; */
 }
-#sidebar-content li:hover {
-    background-color: #05265c;
+#sidebar-content a:hover {
+    background-color: white;
+    color: #05265c;
 }
 #sidebar-content li:last-child {
     border-bottom: 0px;
