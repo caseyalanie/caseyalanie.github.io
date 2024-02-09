@@ -2,7 +2,7 @@
     width: 350px;
     background-color: white;
     border-radius: 35px;
-    margin: 18px;
+    margin: 18px 16px;
     padding: 3px;
 }
 .profile-pic-container {
@@ -26,15 +26,16 @@
 }
 .card-style-2 h2 {
     text-align: center;
+    padding-top: 3px;
 }
 .card-style-2 p {
     text-align: center;
     padding: 0px 55px;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 }
 .animagram-footer {
     display: flex;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 24px;
     padding-bottom: 20px;
 }
