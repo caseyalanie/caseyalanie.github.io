@@ -26,18 +26,22 @@ body {
     color: grey;
 }
 #header #shopby {
-    padding-left: 200px;
+    padding-left: 150px;
     padding-right: 10px;
+}
+#header #shopby:hover {
+    color: #21529C;
 }
 #header #searchfor {
     border: 2px solid black;
-    padding: 10px 1000px 10px 10px;
+    padding: 11px 1000px 11px 15px;
     text-align: left;
+    margin-right: 10px;
 }
 #header #search {
-    border: 1px solid blue;
-    padding: 10px 100px;
-    color: blue;
+    border: 1px solid #21529C;
+    padding: 12px 100px;
+    color: #21529C;
 }
 #header #search:hover {
     background-color: #efefef;
@@ -48,29 +52,37 @@ body {
 }
 #header #m {
     color: red;
+    font-size: 40px;
 }
 #header #e {
     color: orange;
+    font-size: 40px;
 }
 #header #b {
     color: green;
+    font-size: 40px;
 }
 #header #a {
     color: blue;
+    font-size: 40px;
 }
 #header #y {
     color: indigo;
+    font-size: 40px;
 }
 #left {
     /* background-color: blueviolet; */
     grid-area: left;
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 #middle {
     /* background-color: #2aa54f; */
     grid-area: middle;
-    padding-left: 10px;
+    padding: 24px;
+    margin-top: 5px;
+    padding-top: 0px;
 }
 #middle h4 {
     font-size: 30px;
@@ -99,24 +111,31 @@ body {
     border-radius: 50px;
     text-align: center;
     padding: 20px;
-    color: white;
     font-size: 20px;
 }
+#middle #buy a,
+#middle #cart a {
+    text-decoration: none;
+    color: white;
+}
 #middle #buy {
-    background-color: #2323c2;
+    background-color: #21529C;
 }
 #middle #buy:hover {
-    background-color: #0000ff;
+    background-color: #250FA1;
 }
 #middle #cart {
-    background-color: #87d0e8;
+    background-color: #5196C5;
 }
 #middle #cart:hover {
-    background-color: #0000ff;
+    background-color: #250FA1;
+}
+#middle #watchlist a{
+    text-decoration: none;
+    color: #4165E9;
 }
 #middle #watchlist {
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid #4165E9;
 }
 #middle #watchlist:hover {
     background-color: #efefef;
@@ -134,12 +153,14 @@ body {
 #right {
     /* background-color: goldenrod; */
     grid-area: right;
+    margin-top: 5px;
 }
 #right #sellerinfo {
     border: 1px solid grey;
     border-radius: 10px;
     padding: 10px 13px;
-    margin: 12px
+    margin: 12px;
+    margin-top: 0px;
 }
 #right div {
     padding-bottom: 12px;
