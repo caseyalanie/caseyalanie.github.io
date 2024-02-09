@@ -105,18 +105,24 @@ body {
     font-size: 18px;
     padding-top: 10px;
 }
-#middle #buy,
+/* #middle #buy,
 #middle #cart,
 #middle #watchlist {
     border-radius: 50px;
     text-align: center;
     padding: 20px;
     font-size: 20px;
-}
+} */
 #middle #buy a,
 #middle #cart a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
 }
 #middle #buy {
     background-color: #21529C;
