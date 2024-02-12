@@ -15,5 +15,6 @@ noButton.onclick = onNoButtonClick;
 
 yesButton.onclick = () => {
     page.innerHTML =
-        "<img id='gif' src='images/jjk.webp'>";
+        `<img id='gif' src='images/jjk.webp'>
+        <h2 id='yay'>YAY</h2>`;
 }
