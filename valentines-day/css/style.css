@@ -38,6 +38,9 @@ h1 {
     font-weight: bold;
     margin-right: 50px;
     border: 1px solid white;
+    transition: 
+        padding 0.25s,
+        font-size 0.25s;
 }
 #no {
     background-color: red;
