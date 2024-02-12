@@ -10,14 +10,14 @@ body {
         #FF9999,
         red
     );
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
 }
 .single-column {
-    width: 50%;
+    /* width: 50%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     text-align: center;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 h1 {
     color: #720000;
@@ -29,7 +29,7 @@ h1 {
 .button-container {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 10px;
     align-items: center;
 }
 #yes {
@@ -60,4 +60,7 @@ h1 {
 }
 #gif {
     width: 100%;
+}
+#yay {
+    color: #720000;
 }
