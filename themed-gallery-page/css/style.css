@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: peachpuff; 
+}
+#layout {
+    width: 60vw;
+    margin: 48px auto;
+    text-align: center;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    gap: 24px;
+}
+#gallery img {
+    width: 100%;
+}
+#hero {
+    background-image: url(../images/bunnyhero.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero h2 {
+    font-size: 5vw;
+    color: peachpuff;
+}
