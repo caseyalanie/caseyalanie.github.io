@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Philosopher", sans-serif; 
+}
+#hero {
+    background-image: url(../images/pinklighting.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+#hero h1 {
+    color: white;
+    margin-left: 15vw;
+    font-size: 4vw;
+    margin-bottom: 0px;
+}
+#hero h3 {
+    color: white;
+    margin-left: 15vw;
+    font-size: 1.5vw;
+    padding-bottom: 12px;
+}
+#hero a {
+    display: inline-block;
+    text-decoration: none;
+    color: #5c0a5c;
+    background-color: white;
+    border: 1px solid white;
+    padding: 12px;
+    margin-left: 15vw;
+    font-size: 1vw;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+#hero a:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+#centered-column {
+    width: 50%;
+    min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.card {
+    width: 500px;
+    border: 1px solid white;
+    padding: 10px;
+    padding-bottom: 25px;
+
+}
+.card h2 {
+    color: white;
+    font-size: 2vw;
+}
+.card p {
+    color: white;
+    font-size: 1vw;
+}
+.card a {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 1vw;
+    padding: 10px;
+    color: #5c0a5c;
+    text-decoration: none;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+.card a:hover {
+    border: 1px solid white;
+    background-color: transparent;
+}
+#back {
+    margin-top: 0px;
+    padding: 100px;
+    margin-bottom: 0px;
+}
+#layout {
+    width: 80%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+#gallery img {
+    height: 650px;
+    flex: 1;
+    object-fit: cover;
+}
+#back2 {
+    margin-top: 0px;
+    padding: 50px;
+}
+#bigback {
+    background: radial-gradient(
+        at top,
+        #ff90a1,
+        #dd5c71,
+        #5c0a5c
+    )
+}
