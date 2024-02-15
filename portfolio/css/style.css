@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: "Philosopher", sans-serif; 
+    font-family: "Overpass", sans-serif;
+    font-weight: 100;
 }
 #hero {
     background-image: url(../images/pinklighting.jpg);
@@ -22,12 +23,15 @@ body {
     margin-left: 15vw;
     font-size: 4vw;
     margin-bottom: 0px;
+    letter-spacing: 3px;
+    font-family: "Italiana", sans-serif;
 }
 #hero h3 {
     color: white;
     margin-left: 15vw;
     font-size: 1.5vw;
     padding-bottom: 12px;
+    font-weight: 100;
 }
 #hero a {
     display: inline-block;
@@ -38,12 +42,14 @@ body {
     padding: 12px;
     margin-left: 15vw;
     font-size: 1vw;
+    font-weight: 300;
     transition:
         background-color .5s,
-        color .5s;
+        color .5s,
+        border .5s;
 }
 #hero a:hover {
-    border: 1px solid white;
+    border: 1px solid #5c0a5c;
     background-color: transparent;
     color: white;
 }
@@ -67,6 +73,7 @@ body {
 .card h2 {
     color: white;
     font-size: 2vw;
+    font-family: "Italiana", sans-serif;;
 }
 .card p {
     color: white;
@@ -80,12 +87,13 @@ body {
     padding: 10px;
     color: #5c0a5c;
     text-decoration: none;
+    font-weight: 300;
     transition:
         background-color .5s,
-        color .5s;
+        border .5s;
 }
 .card a:hover {
-    border: 1px solid white;
+    border: 1px solid #5c0a5c;
     background-color: transparent;
 }
 #back {
