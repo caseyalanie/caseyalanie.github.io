@@ -2,10 +2,22 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0px;
     font-family: "Overpass", sans-serif;
     font-weight: 100;
+    background: radial-gradient(
+        at 50% 10%,
+        #ff90a1,
+        #dd5c71,
+        #5c0a5c
+    );
+}
+a {
+    letter-spacing: 3px;
 }
 #hero {
     background-image: url(../images/pinklighting.jpg);
@@ -17,18 +29,19 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-attachment: fixed;
+    border-bottom: 1px solid white;
 }
 #hero h1 {
     color: white;
-    margin-left: 15vw;
+    margin-left: 11.75vw;
     font-size: 4vw;
     margin-bottom: 0px;
-    letter-spacing: 3px;
+    letter-spacing: 18px;
     font-family: "Italiana", sans-serif;
 }
 #hero h3 {
     color: white;
-    margin-left: 15vw;
+    margin-left: 11.75vw;
     font-size: 1.5vw;
     padding-bottom: 12px;
     font-weight: 100;
@@ -40,9 +53,10 @@ body {
     background-color: white;
     border: 1px solid white;
     padding: 12px;
-    margin-left: 15vw;
+    margin-left: 11.75vw;
     font-size: 1vw;
     font-weight: 300;
+    padding-top: 15px;
     transition:
         background-color .5s,
         color .5s,
@@ -61,49 +75,56 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 36px;
+    gap: 100px;
 }
 .card {
     width: 500px;
     border: 1px solid white;
-    padding: 10px;
-    padding-bottom: 25px;
-
+    padding-top: 10px;
+    padding-bottom: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .card h2 {
     color: white;
     font-size: 2vw;
-    font-family: "Italiana", sans-serif;;
+    font-family: "Italiana", sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
 }
 .card p {
-    color: white;
     font-size: 1vw;
+    color: #5c0a5c;
 }
 .card a {
     display: inline-block;
     background-color: white;
     border: 1px solid white;
-    font-size: 1vw;
-    padding: 10px;
+    font-size: .75vw;
+    padding: 12px;
     color: #5c0a5c;
     text-decoration: none;
     font-weight: 300;
+    padding-top: 15px;
     transition:
         background-color .5s,
-        border .5s;
+        border .5s,
+        color .5s;
 }
 .card a:hover {
     border: 1px solid #5c0a5c;
     background-color: transparent;
+    color: white;
 }
 #back {
     margin-top: 0px;
     padding: 100px;
     margin-bottom: 0px;
+    padding-top: 150px;
 }
 #layout {
-    width: 80%;
-    min-width: 500px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -113,19 +134,11 @@ body {
     gap: 24px;
 }
 #gallery img {
-    height: 650px;
+    height: 655px;
     flex: 1;
     object-fit: cover;
 }
 #back2 {
     margin-top: 0px;
     padding: 50px;
-}
-#bigback {
-    background: radial-gradient(
-        at top,
-        #ff90a1,
-        #dd5c71,
-        #5c0a5c
-    )
 }
