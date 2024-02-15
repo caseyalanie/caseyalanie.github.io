@@ -17,19 +17,19 @@ body {
 }
 #hero-1 h2 {
     font-size: 5vw;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
     margin-right: 5vw;
-    color: #480000;
+    color: #9d0000;
 }
 #hero-1 h4 {
     font-size: 2vw;
     margin: 0px 5vw 0px 0px;
-    color: #480000;
+    color: #9d0000;
 }
 #hero-1 a {
     font-size: 1vw;
     display: inline-block;
-    background-color: #9d0000;
+    background-color: #e15959;
     color: white;
     text-decoration: none;
     padding: 24px;
@@ -51,7 +51,7 @@ body {
 }
 #hero-3 h2 {
     font-size: 5vw;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
     margin-right: 5vw;
 }
 #hero-3 h4 {
@@ -88,13 +88,13 @@ body {
 }
 #hero-2 h4 {
     font-size: 2vw;
-    margin: 5vh 5vw 0px 0px;
+    margin: 4vh 5vw 0px 0px;
 }
 
 #hero-2 a {
     font-size: 1vw;
     display: inline-block;
-    background-color: #9d1f00;
+    background-color: #9d0000;
     color: white;
     text-decoration: none;
     padding: 24px;
