@@ -28,17 +28,17 @@ h1 {
 }
 .button-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     padding: 10px;
     align-items: center;
 }
 #yes {
     background-color: #FF9999;
+    margin-bottom: 30px;
     padding: 24px 48px;
     border-radius: 50px;
     color: white;
     font-weight: bold;
-    margin-right: 50px;
     border: 1px solid white;
     transition: 
         padding 0.25s,
