@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+.navbar {
+    background: linear-gradient(
+        to bottom,
+        #B7B7A4,
+        #A5A58D,
+        #6B705C
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 24px 50px;
+    letter-spacing: 2px;
+}
+.navbar #name1 {
+    margin-right: auto;
+    font-size: 30px;
+    letter-spacing: normal;
+}
+.navbar #name2 {
+    margin-right: auto;
+    font-size: 30px;
+    letter-spacing: normal;
+}
+#angel {
+    font-family: "Fraunces", serif;
+    background: linear-gradient(
+        to bottom,
+        #fcba49,
+        #ff9b0f,
+        #ea7d00
+    );
+}
+.navbar .cta {
+    background-color: #d1462f;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    letter-spacing: normal;
+}
+.navbar #name3 {
+    margin-right: auto;
+    font-size: 30px;
+    letter-spacing: normal;
+}
+#tailored {
+    background-color: black;
+}
+#top {
+    text-align: center;
+    background-color: #d1462f;
+    padding: 1px;
+}
+#bottom.navbar a {
+    color: blue;
+    text-decoration: none;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+}
