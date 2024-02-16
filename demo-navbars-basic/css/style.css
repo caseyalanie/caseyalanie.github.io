@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        lightblue,
+        #41accf
+    );
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar img {
+    width: 125px;
+}
+#navbar #logo-link {
+    margin-right: auto;
+}
+#navbar .cta-button {
+    background-color: white;
+    border-radius: 36px;
+    color: #41accf;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 24px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+#header {
+    position: sticky;
+    top: 0px;
+}
+#navbar-bottom {
+    background: linear-gradient(
+        to bottom,
+        #e5f8fe,
+        lightblue
+    );
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-bottom a {
+    text-decoration: none;
+    color: #417ccf;
+    padding: 12px 36px;
+}
