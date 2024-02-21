@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+.navbar {
+    background-color: #1b1b79;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+.navbar .logo {
+    margin-right: auto;
+}
+.navbar .cta {
+    background-color: black;
+    border-radius: 24px;
+    padding: 16px 24px;
+    text-align: center;
+    min-width: 150px;
+    margin-right: 24px;
+    font-weight: bold;
+}
+#hero {
+    background-image: url("../images/fish.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    opacity: 50%;
+}
