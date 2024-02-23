@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Shrikhand&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -20,19 +21,74 @@ h1 {
     text-align: center;
 }
 .first {
-    border: 3px solid red;
+    background-color: #ffe9d6;
+    border: 3px solid #db0d2f;
+    color: orange;
+    font-family: "Shrikhand", serif;
+}
+.first p {
+    color: #f0667d;
+}
+.card.first a {
+    color: orange;
+    border: 3px solid #f0667d;
+}
+.first .card-content {
+    opacity: 0;
+    visibility: none;
+    transform: translateY(-8px);
+    transition: 
+        opacity .5s,
+        visibility .5s,
+        transform .5s;
+}
+.first:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
 }
 .second {
-    border: 3px solid green;
+    background-color: black;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+}
+.card.second a {
+    color: white;
+    border: 1px solid white;
+    transition: 
+        background-color .5s,
+        color .5s,
+        box-shadow .5s,
+        transform .5s;
+}
+.card.second:hover a {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 6px 10px #ffffff66;
+    transform: translateY(-5px);
 }
 .third {
-    border: 3px solid yellow;
+    border: 3px solid #3f4b3f;
+    /* background-color: #8fa18f; */
+    font-family: "Josefin Sans", sans-serif;
+    color: #3f4b3f;
+    transition:
+        transform .5s,
+        box-shadow .5s, 
+        background-color .5s;
+}
+.third:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 6px 10px #7f9c87ae;
+    background-color: #c8d8c8;
+}
+.card.third a {
+    color: #3f4b3f;
+    border: 3px solid #3f4b3f;
 }
 .card a {
     text-decoration: none;
-    color: black;
     display: block;
-    border: 3px solid black;
     padding: 12px;
     margin-top: 36px;
 }
