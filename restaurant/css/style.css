@@ -74,7 +74,6 @@ body {
 }
 #hero-content p {
     color: white;
-    font-family: "Bodoni Moda", serif;
     font-size: 24px;
 }
 #hero .cta {
@@ -86,11 +85,110 @@ body {
     min-width: 150px;
 }
 .single-column {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 48px auto;
     text-align: center;
-    font-family: "Bodoni Moda", serif;
 }
 #info {
     color: white;
+}
+#salmon img {
+    width: 100%;
+    margin-left: 50px;
+}
+#lightback {
+    background-color: #808285;
+    border-bottom: 1px solid #FCBE3F;
+}
+.single-column#featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+#main-dish h3 {
+    color: #FCBE3F;
+}
+#main-dish {
+    margin-right: 50px;
+}
+#menu-layout {
+    display: flex;
+    justify-content: center;
+}
+#menu-layout h5 {
+    color: #FCBE3F;
+}
+#left {
+    margin-right: 50px;
+    flex: 1;
+}
+p {
+    font-family: "Bodoni Moda", serif;
+}
+#right {
+    margin-left: 50px;
+    flex: 1;
+}
+.single-column#food {
+    color: white;
+}
+#food h2 {
+    border-bottom: 1px solid #FCBE3F;
+    padding-bottom: 24px;
+}
+.footer {
+    background-color: #231f20;
+    padding: 50px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer p {
+    color: white;
+}
+.top {
+    display: flex;
+    width: 100%;
+}
+.top a {
+    padding: 0px 12px;
+}
+.top a:last-child {
+    padding-right: 0px;
+}
+.top img {
+    width: 200px;
+    margin-right: auto;
+}
+.columns {
+    width: 1500px;
+    padding-bottom: 48px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: rgb(63, 90, 51); */
+}
+.columns a {
+    display: block;
+    padding: 8px 0px;
+    color: white;
+    margin-left: 50px;
+    font-family: "Bodoni Moda", serif;
+}
+.mission {
+    padding: 24px 0px;
+    /* background-color: #722f37; */
+    margin-right: 500px;
+}
+.side-by-side {
+    display: flex;
+}
+.copyright {
+    background-color: #808285;
+    text-align: center;
+    color: white;
+    font-family: "Bodoni Moda", serif;
+    padding: 12px 0px;
 }
