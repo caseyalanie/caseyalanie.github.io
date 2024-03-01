@@ -81,8 +81,8 @@ body {
 }
 #hero #overlay {
     background-color: rgba(0, 0, 0, .5);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 #hero #hero-content {
     text-align: center;
@@ -123,11 +123,14 @@ body {
 }
 #salmon img {
     width: 100%;
+    display: block;
+}
+#salmon {
     margin-left: 50px;
 }
 #lightback {
     background-color: #808285;
-    border-bottom: 1px solid #FCBE3F;
+    /* border-bottom: 1px solid #FCBE3F; */
 }
 .single-column#featured {
     display: flex;
@@ -143,6 +146,10 @@ body {
     font-size: 50px;
     margin-top: 0px;
     margin-bottom: 18px;
+    color: white;
+}
+#main-dish p {
+    color: white;
 }
 #main-dish p:last-child {
     color: #FCBE3F;
@@ -159,6 +166,7 @@ body {
     color: #FCBE3F;
     font-size: 18px;
     margin-bottom: 60px;
+    margin-top: 0px;
 }
 #left {
     margin-right: 50px;
@@ -193,9 +201,17 @@ p {
 .top {
     display: flex;
     width: 100%;
+    align-items: flex-start;
 }
 .top a {
     padding: 0px 12px;
+    border-bottom: 5px solid #231f20;
+    padding-bottom: 12px;
+    transition: 
+        border-bottom .25s;
+}
+.top a:hover {
+    border-bottom: 5px solid #FCBE3F;
 }
 .top a:last-child {
     padding-right: 0px;
@@ -233,4 +249,14 @@ p {
     color: white;
     font-family: "Bodoni Moda", serif;
     padding: 12px 0px;
+}
+.footer .icons {
+    width: 25px;
+    margin-right: 10px
+}
+.footer .clock {
+    width: 20px;
+}
+.footer .phone {
+    width: 15px;
 }
