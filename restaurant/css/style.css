@@ -260,3 +260,96 @@ p {
 .footer .phone {
     width: 15px;
 }
+
+/* @media screen and (max-width: 768px) and (min-width: 481px) {
+    body {
+        background-color: aqua;
+    }
+
+} */
+
+@media screen and (max-width: 480px) {
+    /* body {
+        background-color: #FCBE3F;
+    } */
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar .logo {
+        padding-bottom: 0px;
+    }
+    .navbar .seperator {
+        margin-right: 0px;
+    }
+    .navbar {
+        position: relative;
+    }
+    .navbar .padding,
+    .navbar .paddingtwo {
+        padding: 12px;
+    }
+    .navbar .cta {
+        margin: 24px 0px;
+        margin-top: 12px;
+    }
+    #menu-layout {
+        flex-direction: column;
+    }
+    #left {
+        margin-right: 0px;
+    }
+    #right {
+        margin-left: 0px;
+    }
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top img {
+        margin-right: 0px;
+        margin-bottom: 36px;
+    }
+    .top a {
+        margin-bottom: 24px;
+    }
+    .mission {
+        margin-right: 0px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .side-by-side {
+        flex-direction: column;
+    }
+    .columns {
+        display: none;
+    }
+    .footer img {
+        margin-bottom: 0px;
+    }
+    .top a:last-child {
+        padding-right: 15px;
+    }
+    .single-column#featured {
+        flex-direction: column;
+    }
+    #main-dish {
+        margin-right: 0px;
+    }
+    #salmon {
+        margin-left: 0px;
+    }
+    #hero img {
+        width: 50%
+    }
+    #hero {
+        height: 50vh;
+    }
+    #hero #hero-content {
+        text-align: center;
+        margin-top: 150px;
+    }
+    .footer .footerlogo {
+        margin-bottom: 36px;
+    }
+}
