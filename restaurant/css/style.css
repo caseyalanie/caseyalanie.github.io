@@ -59,7 +59,6 @@ body {
     text-align: center;
     margin-right: 24px;
     padding: 16px 24px;
-    min-width: 150px;
     text-decoration: none;
     transition: 
         background-color .25s
@@ -154,6 +153,7 @@ body {
 #main-dish p:last-child {
     color: #FCBE3F;
     font-family: "Abril Fatface", serif;
+    font-size: 20px;
 }
 #main-dish {
     margin-right: 50px;
@@ -251,7 +251,6 @@ p {
     padding: 12px 0px;
 }
 .footer .icons {
-    width: 25px;
     margin-right: 10px
 }
 .footer .clock {
@@ -263,9 +262,8 @@ p {
 
 /* @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
-        background-color: aqua;
+        background-color: #008181;
     }
-
 } */
 
 @media screen and (max-width: 480px) {
@@ -274,15 +272,17 @@ p {
     } */
     .navbar {
         flex-direction: column;
+        position: relative;
+        font-size: 12px;
     }
     .navbar .logo {
         padding-bottom: 0px;
     }
+    .navbar img {
+        width: 150px;
+    }
     .navbar .seperator {
         margin-right: 0px;
-    }
-    .navbar {
-        position: relative;
     }
     .navbar .padding,
     .navbar .paddingtwo {
@@ -291,6 +291,7 @@ p {
     .navbar .cta {
         margin: 24px 0px;
         margin-top: 12px;
+        padding: 12px 24px;
     }
     #menu-layout {
         flex-direction: column;
@@ -335,12 +336,14 @@ p {
     }
     #main-dish {
         margin-right: 0px;
+        padding: 0px 12px;
     }
     #salmon {
         margin-left: 0px;
     }
     #hero img {
-        width: 50%
+        width: 50%;
+        margin-bottom: 30px;
     }
     #hero {
         height: 50vh;
@@ -351,5 +354,57 @@ p {
     }
     .footer .footerlogo {
         margin-bottom: 36px;
+        width: 150px;
+    }
+    .navbar .icons {
+        width: 15px;
+    }
+    .footer,
+    .copyright {
+        font-size: 12px;
+    }
+    .footer .clock {
+        width: 17px;
+    }
+    .footer .phone {
+        width: 12px;
+    }
+    .footer .icons {
+        margin-right: 7px;
+    }
+    #menu-layout h4 {
+        font-size: 14px;
+    }
+    #menu-layout p {
+        font-size: 12px;
+    }
+    #menu-layout h5 {
+        font-size: 14px;
+    }
+    #main-dish h2 {
+        font-size: 34px;
+    }
+    #main-dish p {
+        font-size: 14px;
+    }
+    #main-dish p:last-child,
+    #main-dish h3 {
+        font-size: 18px;
+    }
+    #right h5:last-child {
+        margin-bottom: 0px;
+    }
+    #hero .cta {
+        font-size: 12px;
+    }
+    #hero p {
+        font-size: 12px;
+    }
+    .single-column #info {
+        font-size: 12px;
+        padding: 0px 12px;
+    }
+    #food.single-column {
+        padding: 0px 12px;
     }
 }
